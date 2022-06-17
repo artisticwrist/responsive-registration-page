@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fa75756e;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@media only screen and (max-width:1440px){
+      
+    section{
+        background-image: url('bg-intro-desktop.png') ;
+        font-family: poppins;
+        height: 100vh;
+        display: flex;
+    }
+    
+    
+    header, aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 1;
+        color: white;
+        width: 50%;
+    }
+    
+   
+    
+    footer{
+        display:flex;
+    }
+    
+    h1{
+        width: 50%;
+        font-size: 2.5rem;
+    }
+    
+    p.see-now{
+        font-size: 16px;
+        margin-top: 2rem;
+        width: 50%;
+    }
+    
+    button{
+        border: none;
+        color: white;
+        width: 70%;
+        height: 7vh;
+        border-radius: 5px;
+    }
+    
+    form{
+        margin-top: 2rem;
+        background: white;
+        border-radius: 5px;
+        width: 70%;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    input{
+        flex-grow: 1;
+        margin-top: 10px;
+        width: 90%;
+        border-width: 2px;
+        border-color: silver;
+        border-radius: 5px;
+    }
+    
+    
+    .try-it{
+        background: #5D54A2;
+    }
+    
+    .claim-free{
+        width: 90%;
+        margin-top: 2rem;
+        background: #65CF91;
+    }
+    
+    footer{
+        margin-top: 0.5rem;
+        width: 90%;
+    }
+    
+    
+    footer p.by-clicking{
+        flex-grow: 1;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.342);
+    }
+    
+    p.terms{
+        flex-grow: 1;
+        font-size: 12px;
+        color: palevioletred;
+    }
+    
+    
+}
+@media only screen and (max-width:375px){
+      
+    section{
+        background-image: url('bg-intro-mobile.png') ;
+    }
+   
+    
+    h1{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    
+    p.see-now{
+        font-size: 10px;
+        margin-top: 1rem;
+        width: 90%;
+    }
+    
+    button{
+        border: none;
+        border-radius: 2px;
+        color: white;
+        font-size: 6px;
+        height: 4vh;
+    }
+    
+    form{
+        margin-top: 0.5rem;
+        border-radius: 5px;
+        width: 90%;
+        height: 35vh;
+        padding: 5px;
+    }
+    
+    input{
+        flex-grow: 1;
+        margin-top: 10px;
+        width: 95%;
+        border-width: 1px;
+        border-radius: 2px;
+    }
+    
+    
+    .try-it{
+        width: 90%;
+        background: #5D54A2;
+    }
+    
+    .claim-free{
+        width: 90%;
+        margin-top: 2rem;
+        background: #65CF91;
+    }
+    
+    footer{
+        margin-top: 0.5rem;
+        width: 90%;
+    }
+    
+    
+    footer p.by-clicking{
+        flex-grow: 1;
+        font-size: 3.5px;
+        color: rgba(0, 0, 0, 0.342);
+    }
+    
+    p.terms{
+        margin-left: 1rem;
+        flex-grow: 1;
+        font-size:3.5px;
+        color: palevioletred;
+    }
+    
+    
+}
